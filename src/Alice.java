@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Alice {
-    private List<Packet> packets;
+    private final List<Packet> packets;
 
     public Alice() {
         packets = new ArrayList<>();
