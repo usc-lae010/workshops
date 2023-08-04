@@ -17,7 +17,7 @@ public class RandomArray {
         Random random = new Random();
 
         for (int i = 0; i < size; i++) {
-            randomArray[i] = random.nextInt(maxValue - minValue + 1) + minValue;
+            randomArray[i] =  random.nextInt(maxValue - minValue + 1) + minValue;
         }
 
         return randomArray;
