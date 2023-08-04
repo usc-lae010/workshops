@@ -12,7 +12,7 @@ public class AESEncryptionDecryption {
             // Generate a true random encryption key
             byte[] encryptionKey = generateTrueRandomKey();
 
-            String originalMessage = "This is a secret message.";
+            String originalMessage = "This is a secret message,Perth380*145 but you can read now.";
 
             // Encrypt the message
             String encryptedMessage = encrypt(originalMessage, encryptionKey);
