@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.HashMap;
 import java.util.Map;
-public class RandomArray {
+public class RandomArray1 {
 
     public static int[] generateRandomArray(int size, int minValue, int maxValue) {
         if (size <= 0 || maxValue < minValue) {
